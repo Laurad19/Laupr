@@ -1,8 +1,7 @@
 import React from 'react';
 import { jsx as _jsx } from 'react/jsx-runtime';
-import { MdLocationOn } from "react-icons/md";
-import { AiFillPhone } from "react-icons/ai";
 import Maps from "../components/Maps"
+import Info from '../components/Info';
 
 
 export default function firstComponent() {
@@ -13,17 +12,10 @@ export default function firstComponent() {
                 <div
 
                 >
-                    <img style={{ height: "30%", width: "25%", borderRadius: "0.5em", margin: "20px" }} src={'../images/playa.jpg'} />
+                <img style={{ height: "250px", width: "361px", borderRadius: "0.5em", margin: "20px" }} src={'../images/playa.jpg'} />
                 </div>
                 <div class="info">
-                    <h2>Hoa Bar</h2>
-                    <h4>Lugar con ambiente relajado</h4>
-                    <span class="circulo"><MdLocationOn style={{padding:"2px"}}></MdLocationOn></span>
-                    <span style={{ marginLeft: "10px" }}>15675 Blvd. Miguel de la Madrid Olas Altas,Col.28860</span>
-                    <p />
-                    <span class="circulo"><AiFillPhone style={{padding:"2px"}}></AiFillPhone></span>
-                    <span style={{ marginLeft: "10px" }}>01 (314) 33-309-53</span>
-
+                    <Info/>
                 </div>
 
                 <div class="ubicacion">
